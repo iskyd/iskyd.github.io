@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html><head lang="en"><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script>
+<html><head lang="en">
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>How not to found a startup - Hello</title><meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="On June 2021 I&rsquo;ve co-founded my first tech startup: PlayLife. In 2021 the goal of PlayLife was to provide a web applications where people can easily manage their events, sell/buy tickets and find new events. There was two main sources of income: a fee that PlayLife keeps for every transaction and the plan to sell user related data.
 As you can imagine you don&rsquo;t build an application in few days: I have worked on the project since October 2019." />
 	<meta property="og:image" content=""/>
-	<meta property="og:url" content="http://localhost:1313/blog/posts/2023-05-15-how-not-to-found-startup/">
+	<meta property="og:url" content="https://iskyd.github.io/posts/2023-05-15-how-not-to-found-startup/">
   <meta property="og:site_name" content="Hello">
   <meta property="og:title" content="How not to found a startup">
   <meta property="og:description" content="On June 2021 I&amp;rsquo;ve co-founded my first tech startup: PlayLife. In 2021 the goal of PlayLife was to provide a web applications where people can easily manage their events, sell/buy tickets and find new events. There was two main sources of income: a fee that PlayLife keeps for every transaction and the plan to sell user related data.
@@ -18,13 +18,16 @@ As you can imagine you don&amp;rsquo;t build an application in few days: I have 
 <meta name="twitter:card" content="summary"><meta name="twitter:title" content="How not to found a startup">
 <meta name="twitter:description" content="On June 2021 I&rsquo;ve co-founded my first tech startup: PlayLife. In 2021 the goal of PlayLife was to provide a web applications where people can easily manage their events, sell/buy tickets and find new events. There was two main sources of income: a fee that PlayLife keeps for every transaction and the plan to sell user related data.
 As you can imagine you don&rsquo;t build an application in few days: I have worked on the project since October 2019.">
+<script src="https://iskyd.github.io/js/feather.min.js"></script>
+	
+	
+        <link href="https://iskyd.github.io/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	
 
 	
-        <link href="http://localhost:1313/blog/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" media="screen" href="https://iskyd.github.io/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://iskyd.github.io/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css"  disabled />
 	
-
-	
-	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/blog/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
 
 	
 	
@@ -37,10 +40,18 @@ As you can imagine you don&rsquo;t build an application in few days: I have work
 <body>
         <div class="content"><header>
 	<div class="main">
-		<a href="http://localhost:1313/blog/">Hello</a>
+		<a href="https://iskyd.github.io/">Hello</a>
 	</div>
 	<nav>
 		
+		<a href="/">Home</a>
+		
+		<a href="/posts">All posts</a>
+		
+		<a href="/about">About</a>
+		
+		| <span id="dark-mode-toggle" onclick="toggleTheme()"></span>
+		<script src="https://iskyd.github.io/js/themetoggle.js"></script>
 		
 	</nav>
 </header>
@@ -75,12 +86,21 @@ As you can imagine you don&rsquo;t build an application in few days: I have work
 		</article>
 </main>
 <footer>
-  <div style="display:flex"></div>
+  <div style="display:flex"><a class="soc" href="https://github.com/iskyd" rel="me" title="GitHub"><i data-feather="github"></i></a>
+    <a class="border"></a><a class="soc" href="https://twitter.com/iskypitts/" rel="me" title="Twitter"><i data-feather="twitter"></i></a>
+    <a class="border"></a></div>
   <div class="footer-info">
     2024  <a
       href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
   </div>
 </footer>
-</div>
+
+
+  
+
+
+<script>
+  feather.replace()
+</script></div>
     </body>
 </html>

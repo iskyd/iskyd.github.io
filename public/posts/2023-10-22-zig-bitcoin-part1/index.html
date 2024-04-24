@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html><head lang="en"><script src="/blog/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=blog/livereload" data-no-instant defer></script>
+<html><head lang="en">
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Learning Zig and Bitcoin - Part 1 - Hello</title><meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="During this summer holidays I decided I want to learn both Zig and Bitcoin. I&rsquo;m starting this series of posts both to talk about my path in learning Zig and Bitcoin, share my impressions and my knowledge and talk about the project I&rsquo;m building.
 What is Zig? Zig is a general purpose programming language that is intended to be a replacement for the C programming language. The main features I love about Zig are: explicit compile-time evaluation, no macros, no hidden control flows, errors management, no hidden allocations, cross compiling toolchain and inversion of control for memory allocations." />
 	<meta property="og:image" content=""/>
-	<meta property="og:url" content="http://localhost:1313/blog/posts/2023-10-22-zig-bitcoin-part1/">
+	<meta property="og:url" content="https://iskyd.github.io/posts/2023-10-22-zig-bitcoin-part1/">
   <meta property="og:site_name" content="Hello">
   <meta property="og:title" content="Learning Zig and Bitcoin - Part 1">
   <meta property="og:description" content="During this summer holidays I decided I want to learn both Zig and Bitcoin. I&amp;rsquo;m starting this series of posts both to talk about my path in learning Zig and Bitcoin, share my impressions and my knowledge and talk about the project I&amp;rsquo;m building.
@@ -18,13 +18,16 @@ What is Zig? Zig is a general purpose programming language that is intended to b
 <meta name="twitter:card" content="summary"><meta name="twitter:title" content="Learning Zig and Bitcoin - Part 1">
 <meta name="twitter:description" content="During this summer holidays I decided I want to learn both Zig and Bitcoin. I&rsquo;m starting this series of posts both to talk about my path in learning Zig and Bitcoin, share my impressions and my knowledge and talk about the project I&rsquo;m building.
 What is Zig? Zig is a general purpose programming language that is intended to be a replacement for the C programming language. The main features I love about Zig are: explicit compile-time evaluation, no macros, no hidden control flows, errors management, no hidden allocations, cross compiling toolchain and inversion of control for memory allocations.">
+<script src="https://iskyd.github.io/js/feather.min.js"></script>
+	
+	
+        <link href="https://iskyd.github.io/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	
 
 	
-        <link href="http://localhost:1313/blog/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" media="screen" href="https://iskyd.github.io/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://iskyd.github.io/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css"  disabled />
 	
-
-	
-	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/blog/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
 
 	
 	
@@ -37,10 +40,18 @@ What is Zig? Zig is a general purpose programming language that is intended to b
 <body>
         <div class="content"><header>
 	<div class="main">
-		<a href="http://localhost:1313/blog/">Hello</a>
+		<a href="https://iskyd.github.io/">Hello</a>
 	</div>
 	<nav>
 		
+		<a href="/">Home</a>
+		
+		<a href="/posts">All posts</a>
+		
+		<a href="/about">About</a>
+		
+		| <span id="dark-mode-toggle" onclick="toggleTheme()"></span>
+		<script src="https://iskyd.github.io/js/themetoggle.js"></script>
 		
 	</nav>
 </header>
@@ -94,12 +105,21 @@ Than I just added them inside build.zig as modules.</p>
 		</article>
 </main>
 <footer>
-  <div style="display:flex"></div>
+  <div style="display:flex"><a class="soc" href="https://github.com/iskyd" rel="me" title="GitHub"><i data-feather="github"></i></a>
+    <a class="border"></a><a class="soc" href="https://twitter.com/iskypitts/" rel="me" title="Twitter"><i data-feather="twitter"></i></a>
+    <a class="border"></a></div>
   <div class="footer-info">
     2024  <a
       href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
   </div>
 </footer>
-</div>
+
+
+  
+
+
+<script>
+  feather.replace()
+</script></div>
     </body>
 </html>
