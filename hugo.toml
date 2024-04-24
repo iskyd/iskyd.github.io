@@ -1,0 +1,4 @@
+baseURL = 'https://iskyd.github.io/blog'
+languageCode = 'en-us'
+title = 'Hello'
+theme = "archie"
