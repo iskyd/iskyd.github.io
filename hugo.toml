@@ -3,5 +3,11 @@ languageCode = 'en-us'
 title = 'Hello'
 theme = "archie"
 [params]
+  name = "Mattia Careddu"
+  role = "Software Engineer"
   [params.contact]
     email = 'iskyd@proton.me'
+  [[params.social]]
+    icon = "github"
+    icon_pack = "fab"
+    link = "//github.com/iskyd"
