@@ -2,3 +2,6 @@ baseURL = 'https://iskyd.github.io'
 languageCode = 'en-us'
 title = 'Hello'
 theme = "archie"
+[params]
+  [params.contact]
+    email = 'iskyd@proton.me'
