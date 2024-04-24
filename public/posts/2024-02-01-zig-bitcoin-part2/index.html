@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html><head lang="en">
+<html><head lang="en"><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Learning Zig and Bitcoin - Part 2 (BIP 38) - Hello</title><meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="description" content="BIP 38 BIP 38 propose a method for encrypting and encoding a passphrase protected Bitcoin private key. This method use scrypt to resist brute force attack. This method propose two encoding metodologies, but I&rsquo;m going to focus only on the one that permit any private key to be encrypted with any passphrase without using the EC multiplication. You can read more about BIP 38 here in particular you can find the steps of what I&rsquo;ve implemented here" />
 	<meta property="og:image" content=""/>
-	<meta property="og:url" content="https://iskyd.github.io/posts/2024-02-01-zig-bitcoin-part2/">
+	<meta property="og:url" content="http://localhost:1313/posts/2024-02-01-zig-bitcoin-part2/">
   <meta property="og:site_name" content="Hello">
   <meta property="og:title" content="Learning Zig and Bitcoin - Part 2 (BIP 38)">
   <meta property="og:description" content="BIP 38 BIP 38 propose a method for encrypting and encoding a passphrase protected Bitcoin private key. This method use scrypt to resist brute force attack. This method propose two encoding metodologies, but I&amp;rsquo;m going to focus only on the one that permit any private key to be encrypted with any passphrase without using the EC multiplication. You can read more about BIP 38 here in particular you can find the steps of what I&amp;rsquo;ve implemented here">
@@ -15,15 +15,15 @@
     <meta property="article:modified_time" content="2024-02-01T00:00:00+00:00">
 <meta name="twitter:card" content="summary"><meta name="twitter:title" content="Learning Zig and Bitcoin - Part 2 (BIP 38)">
 <meta name="twitter:description" content="BIP 38 BIP 38 propose a method for encrypting and encoding a passphrase protected Bitcoin private key. This method use scrypt to resist brute force attack. This method propose two encoding metodologies, but I&rsquo;m going to focus only on the one that permit any private key to be encrypted with any passphrase without using the EC multiplication. You can read more about BIP 38 here in particular you can find the steps of what I&rsquo;ve implemented here">
-<script src="https://iskyd.github.io/js/feather.min.js"></script>
+<script src="http://localhost:1313/js/feather.min.js"></script>
 	
 	
-        <link href="https://iskyd.github.io/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
+        <link href="http://localhost:1313/css/fonts.2c2227b81b1970a03e760aa2e6121cd01f87c88586803cbb282aa224720a765f.css" rel="stylesheet">
 	
 
 	
-	<link rel="stylesheet" type="text/css" media="screen" href="https://iskyd.github.io/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
-		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="https://iskyd.github.io/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css"  disabled />
+	<link rel="stylesheet" type="text/css" media="screen" href="http://localhost:1313/css/main.ac08a4c9714baa859217f92f051deb58df2938ec352b506df655005dcaf98cc0.css" />
+		<link id="darkModeStyle" rel="stylesheet" type="text/css" href="http://localhost:1313/css/dark.726cd11ca6eb7c4f7d48eb420354f814e5c1b94281aaf8fd0511c1319f7f78a4.css"  disabled />
 	
 
 	
@@ -37,7 +37,7 @@
 <body>
         <div class="content"><header>
 	<div class="main">
-		<a href="https://iskyd.github.io/">Hello</a>
+		<a href="http://localhost:1313/">Hello</a>
 	</div>
 	<nav>
 		
@@ -48,7 +48,7 @@
 		<a href="/about">About</a>
 		
 		| <span id="dark-mode-toggle" onclick="toggleTheme()"></span>
-		<script src="https://iskyd.github.io/js/themetoggle.js"></script>
+		<script src="http://localhost:1313/js/themetoggle.js"></script>
 		
 	</nav>
 </header>
@@ -102,11 +102,6 @@ Also I&rsquo;m going to try to make walle usable via cli so that anyone can try 
       href="https://github.com/athul/archie">Archie Theme</a> | Built with <a href="https://gohugo.io">Hugo</a>
   </div>
 </footer>
-
-
-  
-
-
 <script>
   feather.replace()
 </script></div>

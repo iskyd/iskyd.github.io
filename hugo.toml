@@ -1,4 +1,4 @@
-baseURL = 'https://iskyd.github.io'
+baseURL = 'https://iskyd.github.io/'
 languageCode = 'en-us'
 title = 'Hello'
 theme = "archie"

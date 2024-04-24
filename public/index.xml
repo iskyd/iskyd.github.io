@@ -2,66 +2,66 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hello</title>
-    <link>https://iskyd.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Hello</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://iskyd.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Learning Zig and Bitcoin - Part 2 (BIP 38)</title>
-      <link>https://iskyd.github.io/posts/2024-02-01-zig-bitcoin-part2/</link>
+      <link>http://localhost:1313/posts/2024-02-01-zig-bitcoin-part2/</link>
       <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://iskyd.github.io/posts/2024-02-01-zig-bitcoin-part2/</guid>
+      <guid>http://localhost:1313/posts/2024-02-01-zig-bitcoin-part2/</guid>
       <description>BIP 38 BIP 38 propose a method for encrypting and encoding a passphrase protected Bitcoin private key. This method use scrypt to resist brute force attack. This method propose two encoding metodologies, but I&amp;rsquo;m going to focus only on the one that permit any private key to be encrypted with any passphrase without using the EC multiplication. You can read more about BIP 38 here in particular you can find the steps of what I&amp;rsquo;ve implemented here</description>
     </item>
     <item>
       <title>Learning Zig and Bitcoin - Part 1</title>
-      <link>https://iskyd.github.io/posts/2023-10-22-zig-bitcoin-part1/</link>
+      <link>http://localhost:1313/posts/2023-10-22-zig-bitcoin-part1/</link>
       <pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://iskyd.github.io/posts/2023-10-22-zig-bitcoin-part1/</guid>
+      <guid>http://localhost:1313/posts/2023-10-22-zig-bitcoin-part1/</guid>
       <description>During this summer holidays I decided I want to learn both Zig and Bitcoin. I&amp;rsquo;m starting this series of posts both to talk about my path in learning Zig and Bitcoin, share my impressions and my knowledge and talk about the project I&amp;rsquo;m building.&#xA;What is Zig? Zig is a general purpose programming language that is intended to be a replacement for the C programming language. The main features I love about Zig are: explicit compile-time evaluation, no macros, no hidden control flows, errors management, no hidden allocations, cross compiling toolchain and inversion of control for memory allocations.</description>
     </item>
     <item>
       <title>Mi sono laureato</title>
-      <link>https://iskyd.github.io/posts/2023-06-16-mi-sono-laureato/</link>
+      <link>http://localhost:1313/posts/2023-06-16-mi-sono-laureato/</link>
       <pubDate>Fri, 16 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>https://iskyd.github.io/posts/2023-06-16-mi-sono-laureato/</guid>
+      <guid>http://localhost:1313/posts/2023-06-16-mi-sono-laureato/</guid>
       <description>Il 16 Giugno 2023 mi sono laureato in Statistica e Big Data, presso l&amp;rsquo;uniersità Mercatorum.&#xA;Mi sono diplomato nel 2015, presso l&amp;rsquo;istituto tecnico Pino Hensemberger in informatica e telecomunicazione. Dopo il diploma, principalmente a causa delle disponibilità economiche, ho dovuto subito iniziare a lavorare. Ho iniziato con uno stage nel dipartimenti IT e dopo 4 mesi, un nuovo stage come software developer (fullstack web developer). Lavoravo in una piccola società, una web agency, dove ho imparato tantissimo e lavorato su tanti progetti diversi.</description>
     </item>
     <item>
       <title>I find out that Wasabi is not good ... yet</title>
-      <link>https://iskyd.github.io/posts/2023-05-31-i-find-out-wasabi-is-not-good/</link>
+      <link>http://localhost:1313/posts/2023-05-31-i-find-out-wasabi-is-not-good/</link>
       <pubDate>Wed, 31 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://iskyd.github.io/posts/2023-05-31-i-find-out-wasabi-is-not-good/</guid>
+      <guid>http://localhost:1313/posts/2023-05-31-i-find-out-wasabi-is-not-good/</guid>
       <description>Wasabi is a simple ORM for the Julia Language. You can read more here.&#xA;When I started developing Wasabi I have one main goal: rely on my domain object instead of the database representation. A lot of ORMs &amp;ldquo;force&amp;rdquo; you to think of your database representation and use that object also as your domain object. Of course you can apply a conversion between your domain object and your database representation but that&amp;rsquo;s an overhead and in my experience almost no-one do this.</description>
     </item>
     <item>
       <title>I Just discovered Vault</title>
-      <link>https://iskyd.github.io/posts/2023-05-16-i-just-discovered-vault/</link>
+      <link>http://localhost:1313/posts/2023-05-16-i-just-discovered-vault/</link>
       <pubDate>Tue, 16 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://iskyd.github.io/posts/2023-05-16-i-just-discovered-vault/</guid>
+      <guid>http://localhost:1313/posts/2023-05-16-i-just-discovered-vault/</guid>
       <description>Vault is an open source project released by HashiCorp used to securely store and access to secrets that your application needs: database password, api token, tls certificates and so on.</description>
     </item>
     <item>
       <title>How not to found a startup</title>
-      <link>https://iskyd.github.io/posts/2023-05-15-how-not-to-found-startup/</link>
+      <link>http://localhost:1313/posts/2023-05-15-how-not-to-found-startup/</link>
       <pubDate>Mon, 15 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://iskyd.github.io/posts/2023-05-15-how-not-to-found-startup/</guid>
+      <guid>http://localhost:1313/posts/2023-05-15-how-not-to-found-startup/</guid>
       <description>On June 2021 I&amp;rsquo;ve co-founded my first tech startup: PlayLife. In 2021 the goal of PlayLife was to provide a web applications where people can easily manage their events, sell/buy tickets and find new events. There was two main sources of income: a fee that PlayLife keeps for every transaction and the plan to sell user related data.&#xA;As you can imagine you don&amp;rsquo;t build an application in few days: I have worked on the project since October 2019.</description>
     </item>
     <item>
       <title>Wasabi.jl - ORM for Julia</title>
-      <link>https://iskyd.github.io/posts/2023-05-13-wasabi-julia-orm/</link>
+      <link>http://localhost:1313/posts/2023-05-13-wasabi-julia-orm/</link>
       <pubDate>Sat, 13 May 2023 00:00:00 +0000</pubDate>
-      <guid>https://iskyd.github.io/posts/2023-05-13-wasabi-julia-orm/</guid>
+      <guid>http://localhost:1313/posts/2023-05-13-wasabi-julia-orm/</guid>
       <description>Three days ago I&amp;rsquo;ve released Wasabi 0.3.0 on the Julia General Registry. Wasabi is a simple yet powerful ORM for the Julia Language that currently support PostgreSQL and SQLite and gives a simple way to manage database changes using Migrations.&#xA;WHY&#xA;There are 3 main reasons why I decided to start this project few months ago:&#xA;I dind&amp;rsquo;t find any available library for Julia written with Domain Driven Design in mind.</description>
     </item>
     <item>
       <title>About</title>
-      <link>https://iskyd.github.io/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://iskyd.github.io/about/</guid>
+      <guid>http://localhost:1313/about/</guid>
       <description>I&amp;rsquo;m not saying I&amp;rsquo;m batman, I&amp;rsquo;m just saying nobody has ever seen me and batman in a room together.&#xA;Other than saving Gotham at night I&amp;rsquo;m a Software Engineer in love with Data Science, Maths, Space, Bitcoin and Startups. Currently I&amp;rsquo;m Backend Engineer at Conio inc, an italian scale-up that is changing the Bitcoin&amp;rsquo;s world. Previously I was Lead AI Engineer at nCore HR. I have a degree in Statistics and Big Data and I will have a degree in Maths or Phisics (I just made the first year): well that&amp;rsquo;s a promise to myself.</description>
     </item>
   </channel>
